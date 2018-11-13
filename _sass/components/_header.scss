@@ -49,10 +49,10 @@
 
 .header__brand {
   & > svg {
-    width: map-get($base, font-size-h4) * 5.766;
-    height: map-get($base, font-size-h4) * 5.766;
+    width:6.92rem;//width: map-get($base, font-size-h4) * 5.766;
+    height:6.92rem;//height: map-get($base, font-size-h4) * 5.766;
     margin-right:-1.2rem;
-    margin-lift:-1.95rem;
+    margin-left:-1.95rem;
     vertical-align: middle;
     @include media-breakpoint-down(md) {
       width: map-get($base, font-size-h4) * 1.2;
