@@ -128,7 +128,7 @@ comments:
     clientID    : 952b2d86708922d081f2 # GitHub Application Client ID
     clientSecret: 1c60790257309392c411f9b399df3c5fef0ea4a4 # GitHub Application Client Secret
     repository  : RyanIPO.github.io # GitHub repo
-    owner       : Ryan # GitHub repo owner
+    owner       : RyanIPO # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
        - RyanIPO
 
