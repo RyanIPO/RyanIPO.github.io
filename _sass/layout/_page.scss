@@ -54,9 +54,6 @@
   &.layout--page--sidebar {
     .page__main {
       @include overflow(auto);
-      @media print {
-        @include overflow(unset);
-      }
     }
   }
   @include media-breakpoint-down(lg) {
@@ -93,18 +90,10 @@
   .page__content {
     padding-bottom: map-get($layout, footer-height);
     margin: 0 auto;
-    @media print {
-      padding-bottom: 0;
-    }
-  }
-  .hide-footer {
-    .page__content {
-      padding-bottom: 0;
-    }
   }
 
   .page__comments {
-    margin: map-get($spacers, 4) 0;
+    padding-bottom: map-get($base, vertical-space-lg);
   }
 
   .page__aside {

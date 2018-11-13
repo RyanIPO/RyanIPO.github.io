@@ -14,7 +14,7 @@
     @include link-colors ($footer-text-color, $main-color-1);
   }
   .site-info {
-    margin: map-get($spacers, 3) auto 0 auto;
+    margin: 1rem auto 0 auto;
     font-size: map-get($base, font-size-xs);
     text-align: center;
     .menu {
@@ -22,8 +22,8 @@
       & > * {
         &:not(:last-child) {
           @include split-line(right, default, $footer-text-color);
-          padding-right: map-get($spacers, 1);
-          margin-right: map-get($spacers, 1);
+          padding-right: .3rem;
+          margin-right: .3rem;
         }
       }
     }
@@ -32,7 +32,7 @@
 .footer__author-links {
   @include overflow(auto);
   .author-links {
-    padding-top: map-get($spacers, 3);
+    padding-top: 1rem;
     text-align: center;
   }
 }

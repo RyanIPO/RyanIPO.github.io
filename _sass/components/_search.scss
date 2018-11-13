@@ -1,6 +1,6 @@
 .search-bar {
   @include flexbox();
-  margin: map-get($spacers, 3) 0 map-get($spacers, 4) 0;
+  margin: map-get($base, vertical-space-lg) 0;
 }
 .search-box {
   position: relative;
@@ -14,7 +14,7 @@
     display: inline-block;
     width: 100%;
     height: $button-height-lg;
-    padding: 0 2rem;
+    padding: 0 1.8rem;
     margin: 0;
     line-height: 1 !important;
     color: $text-color;
@@ -76,12 +76,12 @@
   }
 }
 .search-result {
-  margin: map-get($spacers, 4) 0;
+  margin: map-get($base, vertical-space-lg) 0;
   font-size: map-get($base, font-size-sm);
   line-height: map-get($base, line-height-sm);
 }
 .search-result__header {
-  margin: map-get($spacers, 3) 0 map-get($spacers, 2) 0;
+  margin: map-get($base, vertical-space) * 2 0 map-get($base, vertical-space) 0;
   font-size: map-get($base, font-size-lg);
   font-weight: map-get($base, font-weight-bold);
   color: $text-color-l;
@@ -96,7 +96,7 @@
 .search-result__item {
   list-style-type: none;
   a {
-    padding: map-get($spacers, 1) map-get($spacers, 3);
+    padding: .4rem 1rem;
     @include transition(none);
     @include clickable($text-color, transparent, $text-color-3, $main-color-3);
     .search--light & {
@@ -119,7 +119,7 @@
   }
 }
 .search__header {
-  margin-top: map-get($spacers, 4);
+  margin-top: 1.5rem;
   font-size: map-get($base, font-size-h1);
   font-weight: map-get($base, font-weight-bold);
   color: $text-color-d;
