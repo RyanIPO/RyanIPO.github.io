@@ -142,7 +142,7 @@ pageview:
   leancloud:
     app_id    : YfyUNB16Iz3V7RcNXHXW9VIC-gzGzoHsz # LeanCloud App id
     app_key   : Wa7KdHapKiE01pXufWdEBOhN # LeanCloud App key
-    app_class : Ryan# LeanCloud App class
+    app_class : Ryan_s_Blog# LeanCloud App class
 
 
 ## => Analytics
