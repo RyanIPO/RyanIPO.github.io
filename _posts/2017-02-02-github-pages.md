@@ -102,3 +102,5 @@ github提供模板，允许站内生成网页，但也允许用户自己编写�
 
 下面是我自己搭建的 GitHub pages。
 ![image](/assets/images/githubPages.png.jpg){:.rounded}
+
+参考[github Pages和Jekyll入门--阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
