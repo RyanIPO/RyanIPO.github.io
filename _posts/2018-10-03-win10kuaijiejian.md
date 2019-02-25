@@ -11,3 +11,11 @@ tags: win10
 **WIN+V ---- 全新剪贴板**
 
 按下`WIN+V`组合按键，可访问剪贴板粘贴历史记录，并且可以锁定某条内容
+
+**ctrl+f5 ---- 强制刷新**
+
+Chrome官方推荐使用如下快捷键，就可以*不使用页面缓存进行刷新*
+
+Windows和Linux操作系统: `Shift+F5`、`ctrl+f5` 或 `Ctrl+Shift+R`
+
+Mac OS: `Cmd+Shft+R`
