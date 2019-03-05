@@ -188,3 +188,6 @@ package-lock.json
 _site/
 .sass-cache/
 .jekyll-metadata
+
+#Ryan
+_posts/2019-02-02-fe.md
