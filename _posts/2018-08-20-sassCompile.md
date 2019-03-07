@@ -1,7 +1,7 @@
 ---
-title: Sass 学习之 编译 
+title: Sass学习之编译 
 key: 20180820
-tags: sass
+tags: sass sass编译
 ---
 
 > sass -- 世界上最成熟、最稳定、最强大的专业级CSS扩展语言！
@@ -9,7 +9,7 @@ tags: sass
 <!--more-->
 
 **编译sass**
-`sass`编译有很多种方式，如命令行编译模式、sublime插件`SASS-Build`、编译软件`koala`、前端自动化软件`codekit`、Grunt打造前端自动化工作流`grunt-sass`、Gulp打造前端自动化工作流`gulp-ruby-sass`等。
+`sass`编译有很多种方式，如命令行编译模式、`sublime`插件`SASS-Build`、编译软件`koala`、前端自动化软件`codekit`、`Grunt`打造前端自动化工作流`grunt-sass`、`Gulp`打造前端自动化工作流`gulp-ruby-sass`等。
 {:.info}
 
 **命令行编译：**
@@ -26,7 +26,7 @@ sass --watch app/sass:public/stylesheets
 
 **命令行编译配置选项:**
 
-命令行编译`sass`有配置选项，如编译过后css排版、生成调试map、开启debug信息等，可通过使用命令`sass -v`查看详细。我们一般常用两种`--style`和`--sourcemap`。
+命令行编译`sass`有配置选项，如编译过后`css`排版、生成调试`map`、开启`debug`信息等，可通过使用命令`sass -v`查看详细。我们一般常用两种`--style`和`--sourcemap`。
 ```
 //编译格式
 sass --watch input.scss:output.css --style compact
