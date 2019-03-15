@@ -1,6 +1,6 @@
 ---
 title: VScode音乐播放器
-key: 20160520
+key: 2019031501
 tags: vscNeteaseMusic
 ---
 
