@@ -65,6 +65,7 @@
     @include media-breakpoint-down(md) {
       font-size: map-get($base, font-size-h4-small);
     }
+    margin-left: 1.6rem;
   }
 }
 
