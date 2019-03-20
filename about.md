@@ -8,4 +8,6 @@ titles:
 key: page-about
 ---
 
-![zard-vol7-img071.jpg](zard.jpg)
+**Stay hungry Stay foolish**
+
+![](https://ws1.sinaimg.cn/large/a5caea9fly1g19g1qwr3ej20go0b4dgq.jpg)
