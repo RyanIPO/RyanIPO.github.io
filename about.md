@@ -10,4 +10,7 @@ key: page-about
 
 **Stay hungry Stay foolish**
 
+<div>{%- include extensions/netease-cloud-music.html id='22651569' -%}</div>
+
 ![](https://ws1.sinaimg.cn/large/a5caea9fly1g19g1qwr3ej20go0b4dgq.jpg)
+
