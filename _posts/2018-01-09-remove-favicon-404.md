@@ -1,6 +1,6 @@
 ---
 title: 去除Chrome页面中GET favicon.ico 404 (Not Found)
-key: 2018-01-09
+key: 20180109
 tags: Chrome
 ---
 
