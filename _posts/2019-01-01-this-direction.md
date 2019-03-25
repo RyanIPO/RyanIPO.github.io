@@ -22,9 +22,9 @@ tags: this apply call bind
 
 下面我们来看一个最简单的例子：
 
-`例 1：`{:.success`}
+`例 1：`{:.success}
 
-``{:.success}``javascript
+```javascript
 var name = "windowsName";
 function a() {
   var name = "Cherry";
