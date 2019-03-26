@@ -26,7 +26,7 @@ function createModule(str1, str2) {
   Obj.prototype.sayIt = function() {
     return this.greeting + ", " + this.name;
   };
-  return new Obj();
+  return new Obj(); // new一下
 }
 //构造函数模式：
 function createModule(str1, str2) {
@@ -37,12 +37,13 @@ function createModule(str1, str2) {
       return this.greeting + ", " + this.name;
     };
   }
-  return new Obj();
+  return new Obj(); // new一下
 }
 //创建对象模式：
 function createModule(str1, str2) {
   function CreateObj() {
-    obj = new Object();
+    var obj = new Object();
+
     obj.greeting = str1;
     obj.name = str2;
     obj.sayIt = function() {
@@ -50,7 +51,7 @@ function createModule(str1, str2) {
     };
     return obj;
   }
-  return CreateObj();
+  return CreateObj(); // 调用一下
 }
 //字面量模式：
 function createModule(str1, str2) {
@@ -61,7 +62,6 @@ function createModule(str1, str2) {
       return this.greeting + ", " + this.name;
     }
   };
-  return obj;
+  return obj; // 直接return
 }
 ```
-

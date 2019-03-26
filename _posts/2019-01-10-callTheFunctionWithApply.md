@@ -25,7 +25,7 @@ function callIt(fn) {
 
 - 因为 arguments 并非真正的数组，因此要获得 callIt 的第一个参数之后的所有参数，不能直接使用 slice 方法截取，需要先将 arguments 转换为真正的数组才行。有两种常见的方法，
 
-- 一是使用 slice 方法：var args = Array . prototype . slice . call ( arguments );
+- 一是使用 slice 方法：var args = Array.prototype.slice.call( arguments );
 
 - 二是循环遍历逐一填入新数组。
 

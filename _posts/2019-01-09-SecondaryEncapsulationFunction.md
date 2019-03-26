@@ -15,13 +15,13 @@ tags: call apply bind
 
 **示例:**
 
-输入
+- 输入
 
-> var sayIt = function(greeting, name, punctuation) { return greeting + ', ' + name + (punctuation || '!'); }; partial(sayIt, 'Hello', 'Ellie')('!!!');
+> `var sayIt = function(greeting, name, punctuation) { return greeting + ', ' + name + (punctuation || '!'); }; partial(sayIt, 'Hello', 'Ellie')('!!!');`
 
-输出
+- 输出
 
-> Hello, Ellie!!!
+> `Hello, Ellie!!!`
 
 ```javascript
 // call和apply必须显式地调用str3，立即执行
@@ -73,4 +73,4 @@ function partial(fn, str1, str2) {
 const partial = (fn, str1, str2) => str3 => fn(str1, str2, str3);
 ```
 
-_bind 不加后面的括号返回的是函数，加上后面的括号返回的是函数值，这也是 bind 和 call 和 apply 的主要区别，bind 需要二次调用，而 call 和 apply 返回的是函数值，是直接调用。这道题让我更理解了三者的区别。_
+**bind 不加后面的括号返回的是函数，加上后面的括号返回的是函数值，这也是 bind 和 call 和 apply 的主要区别，bind 需要二次调用，而 call 和 apply 返回的是函数值，是直接调用。这道题让我更理解了三者的区别。**

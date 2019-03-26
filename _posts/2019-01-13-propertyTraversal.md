@@ -15,7 +15,7 @@ tags: for-in
 
 **示例:**
 
-输入
+- 输入
 
 > var C = function() {this.foo = 'bar'; this.baz = 'bim';};
 
@@ -23,7 +23,7 @@ tags: for-in
 
 > iterate(new C());
 
-输出
+- 输出
 
 > ["foo: bar", "baz: bim"]
 

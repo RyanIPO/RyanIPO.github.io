@@ -33,6 +33,7 @@ tags: this
 //使用的是forEach循环
 function makeClosures(arr, fn) {
   var result = [];
+
   arr.forEach(function(e) {
     result.push(
       (function(num) {
@@ -42,6 +43,7 @@ function makeClosures(arr, fn) {
       })(e)
     );
   });
+
   return result;
 }
 ```
@@ -90,9 +92,9 @@ function makeClosures(arr, fn) {
 
 - 下面是 ES5 的
 
-- 看到题目我首先想到的是使用闭包时因为作用域链引来的副作用，（闭包只能得到包含函数中变量的最后一个值）如果直接用下面第一种写法会导致 result 中每个函数的参数都是 arr[arr.length],在《JavaScript 高级程序设计》书中提到的最典型的解决此问题的方法就是用一个立即执行的匿名函数代替闭包负值给数组，这个匿名函数有一个参数 num，因为函数参数是按值传递的所以传递给 num 的就是当前 for 循环的值。
+- 看到题目我首先想到的是使用闭包时因为作用域链引来的副作用，（闭包只能得到包含函数中变量的最后一个值）如果直接用下面第一种写法会导致 result 中每个函数的参数都是 arr[arr.length],在《JavaScript 高级程序设计》书中提到的最典型的解决此问题的方法就是用一个立即执行的匿名函数代替闭包赋值给数组，这个匿名函数有一个参数 num，因为函数参数是按值传递的所以传递给 num 的就是当前 for 循环的值。
 
-- 此外 ES5 提供了 bind 方法，apply(),call(),bind()方法在使用时如果已经对参数进行了定义
+- 此外 ES5 提供了 bind 方法，apply(),call(),bind()方法在使用时已经对参数进行了定义
 
 - 又因为在此问题中用的是数组并且需要的是 arr[i]所以用 forEach()方法就不用考虑第一段中提到的问题
 
@@ -141,5 +143,3 @@ function makeClosures(arr, fn) {
   return result;
 }
 ```
-
-
