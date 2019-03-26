@@ -14,11 +14,11 @@ tags: 传参
 
 输入
 
-> function (greeting, name, punctuation) {return greeting + ', ' + name + (punctuation || '!');}, ['Hello', 'Ellie', '!']
+> `function (greeting, name, punctuation) {return greeting + ', ' + name + (punctuation || '!');}, ['Hello', 'Ellie', '!']`
 
 输出
 
-> Hello, Ellie!
+> `Hello, Ellie!`
 
 ```javascript
 //用apply

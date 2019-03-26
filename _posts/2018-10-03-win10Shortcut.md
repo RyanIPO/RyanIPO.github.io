@@ -22,7 +22,7 @@ Windows和Linux操作系统: `Shift+F5`、`ctrl+f5` 或 `Ctrl+Shift+R`
 Mac OS: `Cmd+Shft+R`
 
 
-## Win+ShiftS 超级截图
+## Win+Shift+S 超级截图
 
 `Win + Shift + S`
 
