@@ -33,4 +33,17 @@ function functionFunction(str) {
 }
 ```
 
-_首先执行 functionFunction('Hello')，传入参数 str，然后返回函数 f，f 与('world')组合，执行 f('world')，传入参数 s，f 返回 str+", "+s，即 Hello, world。注意中间的逗号后面有一个空格。_
+```javascript
+//执行过程
+//functionFunction('Hello')('world')
+
+//functionFunction('Hello') ---->  f
+
+f = function(s) {
+  return "Hello" + ", " + s;
+};
+
+f("world"); //Hello, world
+```
+
+**首先执行 functionFunction('Hello')，传入参数 str，然后返回函数 f，f 与('world')组合，执行 f('world')，传入参数 s，f 返回 str+", "+s，即 Hello, world。注意中间的逗号后面有一个空格。**
