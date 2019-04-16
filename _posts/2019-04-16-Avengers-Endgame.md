@@ -8,4 +8,4 @@ tags: 复仇者联盟4：终局之战
 
 <!--more-->
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g24u8skr4rj20u0277woq.jpg)
+![](https://ws1.sinaimg.cn/large/a5caea9fgy1g24u8skr4rj20u0277woq.jpg){:.rounded}
