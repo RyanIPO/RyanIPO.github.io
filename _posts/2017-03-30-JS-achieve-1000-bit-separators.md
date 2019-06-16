@@ -68,8 +68,8 @@ console.log(b.toLocaleString());  // "673,439.454"  （小数部分四舍五入�
 ```javascript
 function numFormat(num){
   var res=num.toString().replace(/\d+/, function(n){ // 先提取整数部分
-       return n.replace(/(\d)(?=(\d{3})+$)/g,function($1){
-          return $1+",";
+       return n.replace(/(\d)(?=(\d{3})+$)/g,function(m){
+          return m + ",";
         });
   })
   return res;
