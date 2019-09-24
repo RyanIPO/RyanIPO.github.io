@@ -8,7 +8,5 @@ tags: Restful API
 
 <!--more-->
 
-1. [RESTful API 最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
-2. [理解 RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-3. [JSON Web Token 入门教程](http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
-4. [JWT 官网](https://jwt.io/)
+1. [理解 RESTful 架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+2. [RESTful API 最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
