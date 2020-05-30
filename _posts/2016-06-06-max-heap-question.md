@@ -12,7 +12,7 @@ tags: 堆
 
 其次，该题是求需要下沉的结点的高度和；
 
-![heap](https://ws1.sinaimg.cn/large/a5caea9fgy1g16uzo7md5j206c03fwea.jpg)
+![heap](https://wx1.sinaimg.cn/large/a5caea9fgy1g16uzo7md5j206c03fwea.jpg)
 
 最后，分析，最后一层5个元素，第7个结点是叶子结点，高度是0，
 

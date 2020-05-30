@@ -1087,7 +1087,7 @@ v-show 仅仅控制元素的显示方式，将 display 属性在 block 和 none 
 当一个 Vue 实例创建时，vue 会遍历 data 选项的属性，用 Object.defineProperty 将它们转为 getter/setter 并且在内部追踪相关依赖，在属性被访问和修改时通知变化。
 每个组件实例都有相应的 watcher 程序实例，它会在组件渲染的过程中把属性记录为依赖，之后当依赖项的 setter 被调用时，会通知 watcher 重新计算，从而致使它关联的组件得以更新。
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2yl5nc9v1j20xc0kuabw.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2yl5nc9v1j20xc0kuabw.jpg)
 
 ### 5. Vue 中如何在组件内部实现一个双向数据绑定？
 
@@ -1169,9 +1169,9 @@ computed: {
 
 点击 button 会发现，obj.b 已经成功添加，但是视图并未刷新：
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2ylb6m1rsj20es02r3yf.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2ylb6m1rsj20es02r3yf.jpg)
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2ylbebw6fj209o03bt8i.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2ylbebw6fj209o03bt8i.jpg)
 
 原因在于在 Vue 实例创建时，obj.b 并未声明，因此就没有被 Vue 转换为响应式的属性，自然就不会触发视图的更新，这时就需要使用 Vue 的全局 api \$set()：
 
@@ -1185,7 +1185,7 @@ addObjB () {
 
 \$set()方法相当于手动的去把 obj.b 处理成一个响应式的属性，此时视图也会跟着改变了：
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2ylc34kidj209k049web.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2ylc34kidj209k049web.jpg)
 
 ### 8. delete 和 Vue.delete 删除数组的区别
 
@@ -1201,8 +1201,8 @@ this.$delete(b, 1);
 console.log(b);
 ```
 
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2ylcwiib5j20da04djra.jpg)
-![](https://ws1.sinaimg.cn/large/a5caea9fgy1g2yld0tkkvj20i704ijrb.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2ylcwiib5j20da04djra.jpg)
+![](https://wx1.sinaimg.cn/large/a5caea9fgy1g2yld0tkkvj20i704ijrb.jpg)
 
 ### 9.如何优化 SPA 应用的首屏加载速度慢的问题？
 

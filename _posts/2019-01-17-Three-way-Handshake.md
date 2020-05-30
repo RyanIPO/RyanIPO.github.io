@@ -23,7 +23,7 @@ tags: TCP
 
 - TCP/IP 协议的详细信息参看《TCP/IP 协议详解》三卷本。下面是 TCP 报文格式图：
 
-  ![](https://ws1.sinaimg.cn/large/a5caea9fgy1g1ni6jlmcoj20an04odfr.jpg)
+  ![](https://wx1.sinaimg.cn/large/a5caea9fgy1g1ni6jlmcoj20an04odfr.jpg)
 
 - 上图中有几个字段需要重点介绍下：
 
@@ -55,7 +55,7 @@ tags: TCP
 
 - 所谓三次握手（Three-Way Handshake）即建立 TCP 连接，就是指建立一个 TCP 连接时，需要客户端和服务端总共发送 3 个包以确认连接的建立。在 socket 编程中，这一过程由客户端执行 connect 来触发，整个流程如下图所示：
 
-  ![](https://ws1.sinaimg.cn/large/a5caea9fgy1g1ni7tk1rij20ed08gwei.jpg)
+  ![](https://wx1.sinaimg.cn/large/a5caea9fgy1g1ni7tk1rij20ed08gwei.jpg)
 
   （1）第一次握手：Client 将标志位 SYN 置为 1，随机产生一个值 seq=J，并将该数据包发送给 Server，Client 进入 SYN_SENT 状态，等待 Server 确认。
 
@@ -71,7 +71,7 @@ tags: TCP
 
 - 三次握手耳熟能详，四次挥手估计就没那么熟悉，所谓四次挥手（Four-Way Wavehand）即终止 TCP 连接，就是指断开一个 TCP 连接时，需要客户端和服务端总共发送 4 个包以确认连接的断开。在 socket 编程中，这一过程由客户端或服务端任一方执行 close 来触发，整个流程如下图所示：
 
-  ![](https://ws1.sinaimg.cn/large/a5caea9fgy1g1ni8u67rcj20e308zjrf.jpg)
+  ![](https://wx1.sinaimg.cn/large/a5caea9fgy1g1ni8u67rcj20e308zjrf.jpg)
 
 - 由于 TCP 连接时全双工的，因此，每个方向都必须要单独进行关闭，这一原则是当一方完成数据发送任务后，发送一个 FIN 来终止这一方向的连接，收到一个 FIN 只是意味着这一方向上没有数据流动了，即不会再收到数据了，但是在这个 TCP 连接上仍然能够发送数据，直到这一方向也发送了 FIN。首先进行关闭的一方将执行主动关闭，而另一方则执行被动关闭，上图描述的即是如此。
 
@@ -85,7 +85,7 @@ tags: TCP
 
 - 上面是一方主动关闭，另一方被动关闭的情况，实际中还会出现同时发起主动关闭的情况，具体流程如下图：
 
-  ![](https://ws1.sinaimg.cn/large/a5caea9fgy1g1ni97na0uj20dz05b0sp.jpg)
+  ![](https://wx1.sinaimg.cn/large/a5caea9fgy1g1ni97na0uj20dz05b0sp.jpg)
 
   流程和状态在上图中已经很明了了，在此不再赘述，可以参考前面的四次挥手解析步骤。
 

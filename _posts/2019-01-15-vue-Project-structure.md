@@ -10,7 +10,7 @@ tags: vue-cli vue vue-router webpack
 
 ## 项目目录和文件结构
 
-![项目目录和文件结构](https://ws1.sinaimg.cn/large/a5caea9fgy1g1746ordilj20820aw74h.jpg)
+![项目目录和文件结构](https://wx1.sinaimg.cn/large/a5caea9fgy1g1746ordilj20820aw74h.jpg)
 
 如上图所示，我们的目录结构就是这样的了。
 
@@ -69,7 +69,7 @@ tags: vue-cli vue vue-router webpack
 
 ## SRC文件夹的情况
 
-![SRC文件夹的情况](https://ws1.sinaimg.cn/large/a5caea9fgy1g174d9xhxyj208g05raa1.jpg)
+![SRC文件夹的情况](https://wx1.sinaimg.cn/large/a5caea9fgy1g174d9xhxyj208g05raa1.jpg)
 
 如上图所示，这是src文件夹下面的初始情况，里面有一些示例代码之类的。比如，它吧logo放在assets文件夹里面。我个人很不喜欢这么做，因为代码是代码，资源是资源，各归其位比较好。
 
@@ -83,7 +83,7 @@ main.js这是项目的核心文件。全局的配置都在这个文件里面配�
 
 上面只是让大家了解一下具体是什么情况，下面，我们开始动手，把不想管的干掉，然后把src变成这个样子:
 
-![整理目录](https://ws1.sinaimg.cn/large/a5caea9fgy1g174nwvbxsj208j0cv3yq.jpg)
+![整理目录](https://wx1.sinaimg.cn/large/a5caea9fgy1g174nwvbxsj208j0cv3yq.jpg)
 
 如上图所示，把文件夹和文件都新建好，后面的博文我会详细给出每个文件的代码的。这里，都新建空文件即可。注意，我是用scss来写css文件的。所以看官你最好也学习一下scss的相关内容，我的博客里面有，搜索也是一大把。
 
